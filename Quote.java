@@ -37,7 +37,8 @@ public class Quote
   {
     Random gen = new Random();
     int index = gen.nextInt(QuoteArray.size());
-    return QuoteArray.get(index);
+    String randomQuote = QuoteArray.get(index);
+    return randomQuote;
   }
   
   // Method that returns the array in this class
